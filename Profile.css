@@ -3,15 +3,17 @@
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: #fff;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: #212121;
+    background: #C7AFC8;
     display: flex;
     align-items: center;
     justify-content:center;
+    text-align: center;
 }
 
 .Profile-card{
@@ -32,7 +34,7 @@ width: 140px;
 height: 140px;
 border-radius: 50%;
 margin-top: -70px;
-box-shadow: 0 0 0 0px #ff004f;
+box-shadow: 0 0 0 0px #fff;
 transition: box-shadow 0.5s;
 display: block;
 margin: auto;
@@ -40,7 +42,7 @@ object-fit: cover;
 }
 
 .Profile-pic:hover{
-    box-shadow: 0 0 0 5px #ff004f;
+    box-shadow: 0 0 0 5px #EAC587;
 }
 
 .Profile-card h1{
@@ -50,13 +52,14 @@ object-fit: cover;
 .follow-btn{
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #ff004f;
+    border: 2px solid #EAC587;
     color: #555;
     padding: 6px 35px;
     margin: 25px 0;
     justify-content: center;
-        align-items:center;
-      }
+     align-items:center;
+     text-align: center;
+    }
 
 .row{
     display: flex;
@@ -67,10 +70,11 @@ object-fit: cover;
 .view-btn{
     display: inline-block;
     text-decoration:none ;
-    background: #ff004f;
+    background: #EAC587;
     color:#fff;
     width: 100%;
     padding: 15px 0;
     margin-top: 20px;
     justify-content: center;
+    text-align: center;
 }

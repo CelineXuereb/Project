@@ -30,13 +30,6 @@ button {
   font-family: inherit;
   font-size: 100%;
 }
-body{
-  display: flex;
-  justify-content:right;
-  align-items:right;
-  min-height: 100vh;
-  image: url('Red_grande.jpg')no-repeat;
-}
 
 button,
 label {
