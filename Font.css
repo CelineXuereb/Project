@@ -1,0 +1,38 @@
+font-face {
+    font-family:"CloisterFont";
+    src: url('../Fonts/CloisterBlack.ttf');
+}
+
+div{
+    border:1px solid black;
+}
+.btn-purple{
+    color:white;
+    background-color: purple;
+    border-color:purple;
+    /* Using custom font */
+    font-family: 'CloisterFont';
+}
+
+.btn-purple:hover{
+    color:white;
+    background-color: rgb(71, 6, 71);
+    border-color:rgb(71, 6, 71);
+}
+
+.btn-purple:active{
+    color:white;
+    background-color: rgb(71, 6, 71);
+    border-color:rgb(71, 6, 71);
+}
+
+.btn-purple:disabled{
+    color:rgb(180, 159, 159);
+    background-color: brown;
+    border-color: brown;
+}
+
+.btn{
+    font-size: 1.5rem;
+    
+}
