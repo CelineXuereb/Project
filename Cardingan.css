@@ -11,7 +11,7 @@ body{
 .container{
     max-width: 75%;
     margin: auto;
-    height: 140vh;
+    height: 170vh;
     margin-top: 5%;
     background-color: white;
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
@@ -21,6 +21,7 @@ body{
     width: 50%;
     padding: 30px;
 }
+
 
 .flex{
     display:flex;
@@ -37,8 +38,8 @@ body{
 }
 
 .option img{
-    width: 75px;
-    height: 75px;
+    width: 500px;
+    height: 500px;
     padding: 10px;
 }
 
@@ -80,7 +81,7 @@ label,
 }
 
 .color span:nth-child(2) {
-    background-color: #ededed;
+    background-color: #753F47;
 }
 
 .add label,

@@ -12,10 +12,10 @@ body{
 .container{
     max-width: 75%;
     margin: auto;
-    height: 150vh;
+    height: 170vh;
     margin-top: 5%;
     background-color: white;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0);
+    box-shadow: 5px 5px 10px 3px rgba(32, 52, 34, 0);
 
 }
 .left, .right{
@@ -38,8 +38,8 @@ body{
 }
 
 .option img{
-    width: 75px;
-    height: 75px;
+    width: 500px;
+    height: 500px;
     padding: 10px;
 }
 
@@ -75,7 +75,7 @@ label,
 .color span {
     width: 25px;
     height: 25px;
-    background-color:#837d7c;
+    background-color:#1c5048;
     border-radius:50%;
     margin: 30px 10px 30px 0px;
 }
